@@ -1,0 +1,297 @@
+# CSCN8010 – Machine Learning Frameworks
+## Consolidated Inventory of Topics Covered in Weeks 1-7
+
+## 1. Machine Learning Foundations
+
+- Machine Learning concepts and terminology
+- Supervised learning: regression and classification
+- Parametric versus non-parametric models
+- Model training, validation, and testing
+- Features, target variables, and predictions
+- Model parameters versus hyperparameters
+- Generalization to unseen data
+- Overfitting and underfitting
+- Bias-variance trade-off
+- Model selection
+- Machine Learning development lifecycle
+
+## 2. Python and ML Development Frameworks
+
+- Python programming for Machine Learning
+- NumPy arrays and vectorized calculations
+- pandas DataFrames
+- scikit-learn estimators
+- Jupyter Notebook development
+- Visual Studio Code
+- Matplotlib, Seaborn, and Plotly
+- Python virtual environments (`venv`)
+- `pip` and `requirements.txt`
+- Git and GitHub
+- Bash and Zsh
+- Python code organization
+- Modular programming and reusable functions
+- Classes and object-oriented design
+- Reproducible Machine Learning workflows
+
+## 3. Data Collection, Preparation, and Exploratory Data Analysis
+
+- Data collection from CSV files
+- REST APIs and HTTP requests
+- Data acquisition from databases
+- Exploratory Data Analysis (EDA)
+- Data quality and missing values
+- Data cleaning and preprocessing
+- Feature selection and feature engineering
+- Numerical feature scaling
+- Data normalization and standardization
+- Train/test splitting
+- Data leakage prevention
+- Outlier identification
+- Handling duplicates
+- Dataset reproducibility and versioning
+
+## 4. Min-Max Normalization
+
+- Mathematical definition of Min-Max normalization
+- Manual implementation in Python
+- Comparison with scikit-learn scaling methods
+- Custom normalization ranges
+- Handling constant-valued features
+- Effects of outliers
+- Normalization versus standardization
+- Debugging incorrect scaling implementations
+- Code review and collaborative exercises
+- Min-Max Normalization Workshop grading
+
+## 5. Linear Regression Fundamentals
+
+- Simple and univariate linear regression
+- Multivariate linear regression
+- Linear regression equations
+- Slope and intercept
+- Weights and bias
+- Predicting continuous outcomes
+- Residuals and prediction errors
+- Cost and loss functions
+- Mean Squared Error (MSE)
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
+- Coefficient of determination (R²)
+- Model interpretation and regression visualizations
+- Linear regression implementation from scratch
+- Comparison with `LinearRegression` in scikit-learn
+
+## 6. Gradient Descent and Optimization
+
+- Optimization objectives
+- Loss functions and cost surfaces
+- Gradient descent mathematics
+- Partial derivatives and gradients
+- Weight and bias updates
+- Learning rate
+- Epochs and iterations
+- Batch Gradient Descent
+- Stochastic Gradient Descent (SGD)
+- Mini-batch Gradient Descent
+- Convergence and stopping criteria
+- Early stopping
+- `SGDRegressor`
+- `max_iter` and related hyperparameters
+- Training-loss visualization
+
+## 7. Linear Regression Architecture Workshop
+
+- California and Ontario housing datasets
+- Housing-price prediction
+- Multiple data acquisition sources
+- SQLite and PostgreSQL integration
+- Training pipelines
+- Data transformations
+- Gradient descent compared with scikit-learn
+- YAML-based configuration
+- Modular ML architecture
+- Experiment tracking
+- Regression metrics
+- Reproducibility
+- GitHub repository assessment
+- Linear Regression Simulator mathematical verification
+- Comparison of simulator content with workshop materials
+- Simulator integration into teaching repositories
+
+## 8. Polynomial and Non-Parametric Regression
+
+- Polynomial regression
+- Polynomial feature generation
+- Polynomial degree selection
+- Polynomial regression for BMI and diabetes progression
+- Degree-zero through degree-five models
+- Model complexity
+- Nonlinear relationships
+- Decision Tree Regression
+- K-Nearest Neighbors Regression
+- Comparison of regression algorithms
+- Regression metrics, including MAPE
+- Model selection through cross-validation
+
+## 9. Decision Tree Regression and Classification
+
+- Decision tree fundamentals
+- Recursive partitioning
+- Regression tree algorithms
+- Splitting criteria
+- Mean Squared Error reduction
+- Selecting optimal split thresholds
+- Manual implementation of a tree split
+- Splitting algorithms implemented without scikit-learn
+- `DecisionTreeRegressor`
+- Tree depth
+- Minimum samples per split/leaf
+- Hyperparameter tuning
+- Regression trees versus classification trees
+- Piecewise prediction regions
+- Logistic regression decision boundaries versus decision tree boundaries
+- Decision Tree Regression Workshop
+- Supplemental algorithmic coaching notebooks
+
+## 10. Logistic Regression and Binary Classification
+
+- Binary classification
+- Logistic regression theory
+- Sigmoid function
+- Linear decision boundaries
+- Class probabilities
+- Prediction thresholds
+- Binary Cross-Entropy (Log-Loss)
+- Gradient derivation
+- Gradient descent for logistic regression
+- NumPy implementations from scratch
+- Vectorized training
+- Training epochs and learning rates
+- Regularization
+- `LogisticRegression` in scikit-learn
+- Accuracy and classification evaluation
+- Pass/fail classification based on study hours
+- Diabetes progression classification
+- Logistic Regression Classifier Workshop
+- GitHub repository evaluation and grading
+
+## 11. K-Nearest Neighbors (KNN)
+
+- KNN algorithm fundamentals
+- Instance-based learning
+- Distance-based classification
+- KNN regression
+- Euclidean distance and feature similarity
+- Selecting the number of neighbors (`k`)
+- Feature scaling for KNN
+- Training and testing KNN classifiers
+- Hyperparameter tuning
+- Classification metrics
+- KNN pipelines
+- Data leakage
+- Generalization and temporal validation
+
+KNN workshop datasets examined:
+
+- Iris
+- UCI Heart Disease
+- Palmer Penguins
+- Rice classification
+- Weather and rainfall prediction
+- Waterloo weather data
+- Exchange-rate prediction using an API
+
+The project also covered the KNN Active Learning Workshop, peer programming, student reflections, and 15-point assessment rubrics.
+
+## 12. Classification Performance Metrics
+
+- Confusion matrix
+- True Positives and True Negatives
+- False Positives and False Negatives
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Classification reports
+- Class imbalance
+- Comparison of classification models
+- MNIST image classification
+- Fashion-MNIST classification
+- Interpretation of classifier performance
+- Performance Metrics Classification Workshop
+- Peer code review
+- Brightspace assessment reports
+
+## 13. Cross-Validation and Model Selection
+
+- Holdout validation
+- Train/validation/test splits
+- K-fold Cross-Validation
+- Five-fold Cross-Validation
+- Model comparison
+- Training and validation scores
+- Data leakage during validation
+- Preprocessing within cross-validation pipelines
+- Hyperparameter experimentation
+- Generalization error
+- Stability across folds
+- Selection of the best-performing model
+
+## 14. Practical Lab 1 – Predictive Maintenance and Streaming Regression
+
+- Industrial robot predictive maintenance
+- Energy/current consumption monitoring
+- Eight-axis robot telemetry
+- Time-series measurements
+- Streaming data simulation
+- Linear regression for sensor readings
+- Prediction residuals
+- Regression-based alerts
+- Alert and error thresholds
+- Threshold duration conditions
+- Streaming data visualization
+- Sensor anomaly identification
+- PostgreSQL and NeonDB integration
+- `psycopg`
+- Environment variables and `.env`
+- Data storage and querying
+- Credentials and security
+- Database connectivity and replication
+- End-to-end ML pipelines
+- Lab assessment and grading
+
+## 15. Practical Lab 2 – Diabetes Progression Modeling
+
+- scikit-learn diabetes dataset
+- Exploratory Data Analysis
+- Feature selection and preparation
+- BMI as a predictor
+- Polynomial regression
+- Multivariate regression
+- Decision Tree Regression
+- KNN Regression
+- Logistic Regression classification
+- Discretizing continuous diabetes progression targets
+- Comparing regression and classification metrics
+- R², MAE, and MAPE
+- Cross-validation
+- Feature scaling and leakage prevention
+- Model selection and interpretation
+- 20-point grading rubric
+
+## Summary by curriculum area
+
+The following table provides a more compact view of the project.
+
+| Curriculum area        | Topics                                                           |
+| ---------------------- | ---------------------------------------------------------------- |
+| Foundations            | ML fundamentals, supervision, parametric/non-parametric learning |
+| Programming            | Python, NumPy, pandas, scikit-learn, notebooks                   |
+| Data engineering       | EDA, acquisition, cleaning, transformation, scaling              |
+| Linear models          | Linear regression, polynomial regression, logistic regression    |
+| Optimization           | MSE, Cross-Entropy, gradients, SGD, epochs                       |
+| Non-parametric models  | Decision trees, KNN                                              |
+| Model evaluation       | Regression metrics, classification metrics, cross-validation     |
+| Applied ML             | Housing, diabetes, image classification, predictive maintenance  |
+| ML architecture        | Pipelines, data sources, configuration, MLOps                    |
+
